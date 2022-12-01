@@ -1,0 +1,71 @@
+
+.img{
+    width: 600px;
+    position: absolute;
+    left: 0;
+}
+.img2{
+    width: 600px;
+    transform: rotateY(180deg);
+    position: absolute;
+    right: 0;
+}
+.egg{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 0%;
+    left: 45%;
+}
+.basket{
+    width: 130px;
+    height: 60px;
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+}
+h2{
+    color: gold;
+}
+h3{
+    color: red;
+    font-size: 50px;
+    position: absolute;
+    right: 15px;
+    top: 4px;
+    margin: 0;
+    padding: 0;
+    display: none;
+
+}
+h3:hover{
+    color: gold;
+    transform: scale(120%);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+span{color: rebeccapurple;}
+
+.start{
+    color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    left: 33%;
+    border-radius: 50%;
+    border: solid 5px red;
+    width: 30%;
+}
+.start:hover{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    transform: scale(150%);
+    transition-duration: 0.5s;
+}
+h1{
+    font-size: 150px;
+    
+}
